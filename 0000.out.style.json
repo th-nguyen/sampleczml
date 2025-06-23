@@ -1,0 +1,47 @@
+{
+  "show": true,
+  "color": {
+    "conditions": [
+      [
+        "Number(${value}) >= 8.0",
+        "color('rgb(64, 18, 212)', 1)"
+      ],
+      [
+        "Number(${value}) >= 7.0",
+        "color('rgb(68, 56, 216)', 1)"
+      ],
+      [
+        "Number(${value}) >= 6.0",
+        "color('rgb(71, 81, 219)', 1)"
+      ],
+      [
+        "Number(${value}) >= 5.0",
+        "color('rgb(74, 108, 222)', 1)"
+      ],
+      [
+        "Number(${value}) >= 4.0",
+        "color('rgb(77, 134, 225)', 1)"
+      ],
+      [
+        "Number(${value}) >= 3.0",
+        "color('rgb(80, 160, 228)', 1)"
+      ],
+      [
+        "Number(${value}) >= 2.0",
+        "color('rgb(85, 199, 232)', 1)"
+      ],
+      [
+        "Number(${value}) >= 1.0",
+        "color('rgb(89, 236, 236)', 1)"
+      ],
+      [
+        "Number(${value}) >= 0.0",
+        "color('rgb(255, 255, 255)', 1)"
+      ],
+      [
+        "true",
+        "color('#FFFFFF', 1)"
+      ]
+    ]
+  }
+}
